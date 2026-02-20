@@ -3,24 +3,11 @@
 This guide explains how to run the load test for the payment transfer
 feature using Locust.
 
-------------------------------------------------------------------------
 
-## 📦 Prerequisites
-
--   Python 3.8+
--   Internet access to install dependencies
 
 ------------------------------------------------------------------------
 
 ## ⚙️ Setup & Run Instructions
-
-### 1️⃣ Save the Test Script
-
-Save the provided test script as:
-
-locustfile.py
-
-------------------------------------------------------------------------
 
 ### 2️⃣ Install Locust
 
@@ -64,12 +51,11 @@ Then click **Start Swarming**.
 During the test, monitor:
 
 -   Response time \< 2 seconds\
--   Failure rate \< 1%\
 -   Stable throughput under load
 
 ------------------------------------------------------------------------
 
-## 📈 What to Monitor on Server Side
+## 📈 What you can Monitor on Server Side
 
 -   CPU usage\
 -   Memory usage\
