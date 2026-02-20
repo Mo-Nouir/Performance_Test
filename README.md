@@ -1,8 +1,6 @@
 # 🚀 Performance Test -- Locust Setup Guide
 
-This guide explains how to run the load test for the payment transfer
-feature using Locust.
-
+This document describes the performance test for the new payment processing feature. The test simulates user activity for money transfers and recurring transfers using Locust, a Python-based load testing tool, to validate system performance under high concurrency.
 
 
 ------------------------------------------------------------------------
